@@ -3,7 +3,7 @@ package com.niit.SpringCore;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
-public class AutowiredAnnotaion {
+public class AutowiredAnnotation {
 
 	public static void main(String[] args) {
 		ApplicationContext context = new ClassPathXmlApplicationContext("Country.xml");

@@ -1,7 +1,5 @@
 package com.niit.SpringCore;
 
-import org.springframework.beans.factory.annotation.Autowired;
-
 public class Capital {
 
 	private String capitalName;

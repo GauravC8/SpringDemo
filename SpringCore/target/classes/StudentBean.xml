@@ -6,9 +6,11 @@
    http://www.springframework.org/schema/beans/spring-beans-4.0.xsd
    http://www.springframework.org/schema/context
    http://www.springframework.org/schema/context/spring-context-4.0.xsd">
+	
 	<context:annotation-config />
+	<bean class ="org.springframework.beans.factory.annotation.RequiredAnnotationBeanPostProcessor"/>
 	<bean id="student" class="com.niit.SpringCore.Student">
 		<property name="name" value="India" />
-		<property name="age" value="30" />
+		<!-- <property name="age" value="30" /> -->
 	</bean>
 </beans>

@@ -11,7 +11,5 @@ public class RequiredAnnotation {
 		Student stud = (Student)context.getBean("student");
 		System.out.println("Name : " + stud.getName());
 		System.out.println("Age : " + stud.getAge());
-
 	}
-
 }

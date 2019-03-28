@@ -4,11 +4,11 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.niit</groupId>
-	<artifactId>SpringCore</artifactId>
+	<artifactId>SpringCore1</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>SpringCore</name>
+	<name>SpringCore1</name>
 	<url>http://maven.apache.org</url>
 
 	<properties>
@@ -22,32 +22,22 @@
 			<version>3.8.1</version>
 			<scope>test</scope>
 		</dependency>
-		<!-- https://mvnrepository.com/artifact/org.springframework/spring-core -->
-		<dependency>
-			<groupId>org.springframework</groupId>
-			<artifactId>spring-core</artifactId>
-			<version>5.1.5.RELEASE</version>
-		</dependency>
-
-		<!-- https://mvnrepository.com/artifact/org.springframework/spring-context -->
 		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-context</artifactId>
 			<version>5.1.5.RELEASE</version>
 		</dependency>
-
-		<!-- https://mvnrepository.com/artifact/org.springframework/spring-beans -->
+		<!-- https://mvnrepository.com/artifact/org.aspectj/aspectjtools -->
 		<dependency>
-			<groupId>org.springframework</groupId>
-			<artifactId>spring-beans</artifactId>
-			<version>5.1.5.RELEASE</version>
+			<groupId>org.aspectj</groupId>
+			<artifactId>aspectjtools</artifactId>
+			<version>1.9.2</version>
 		</dependency>
-
-		<!-- https://mvnrepository.com/artifact/org.springframework/spring-aop -->
+		<!-- https://mvnrepository.com/artifact/org.aspectj/aspectjrt -->
 		<dependency>
-			<groupId>org.springframework</groupId>
-			<artifactId>spring-aop</artifactId>
-			<version>5.1.5.RELEASE</version>
+			<groupId>org.aspectj</groupId>
+			<artifactId>aspectjrt</artifactId>
+			<version>1.9.2</version>
 		</dependency>
 	</dependencies>
 </project>

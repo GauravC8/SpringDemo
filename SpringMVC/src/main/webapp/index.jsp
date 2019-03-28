@@ -1,9 +1,7 @@
 <html>
-<body>
-
-<title>Spring MVC </title>
+<head>
+<title>Spring MVC</title>
 <style type="text/css">
-<h2>Hello World!</h2>
 body {
 	background-color:aqua;
 }
@@ -12,12 +10,13 @@ body {
 <body>
 	<br>
 	<div style="text-align: center">
+	<h2>Hello World!</h2>
 		<h2>
 			Hey You..!! This is your 1st Spring MCV Project..<br> <br>
 		</h2>
 		<h3>
-			<a href="welcome.html">Click here to See Welcome Message... </a>(to
-			check Spring MVC Controller... @RequestMapping("/welcome"))
+			<a href="welcome.jsp">Click here to See Welcome Message... </a>(to
+			check Spring MVC Controller... @RequestMapping("/Welcome"))
 		</h3>
 	</div>
 </body>

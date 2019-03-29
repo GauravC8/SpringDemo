@@ -11,14 +11,14 @@ body {
 }
 </style>
 </head>
-<body>${message}
+<body>
 
+${message} <!-- message model coming from controller -->
+<!-- this is view -->
 	<br>
 	<br>
-	<div
-		style="font-family: verdana; padding: 10px; border-radius: 10px; font-size: 12px; text-align: center;">
-
-		<h1>Welcome Spring MCV Tutorial</h1>
+	<div style="font-family: verdana; padding: 10px; border-radius: 10px; font-size: 12px; text-align: center;">
+		<h1>Welcome Spring MVC Tutorial</h1>
 	</div>
 </body>
 </body>
